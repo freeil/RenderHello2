@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: renderhello2
+    env: node
+    plan: free
+    buildCommand: npm install
+    startCommand: node server.js
+    branch: main
+    autoDeploy: true
