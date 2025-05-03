@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>파일 선택하여 내용 보기</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>파일 선택하여 내용 보기</h1>
+
+    <!-- 디렉토리 선택 -->
+    <select id="directorySelect">
+        <option value="">디렉토리 선택</option>
+        <option value="d1">d1</option>
+        <option value="d2">d2</option>
+    </select>
+
+    <!-- 파일 선택 -->
+    <select id="fileSelect" disabled>
+        <option value="">파일 선택</option>
+    </select>
+
+    <br><br>
+
+    <!-- 파일 내용 표시 -->
+    <pre id="fileContent"></pre>
+
+    <script src="script.js"></script>
+</body>
+</html>
